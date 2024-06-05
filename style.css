@@ -14,7 +14,7 @@ body{
 }
 nav{
     height: 50px;
-    background-color: deepskyblue;
+    background-color: gold;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -22,4 +22,17 @@ nav{
 a{
     text-decoration: none;
     color: white;
+}
+a:hover{
+    border-bottom: 4px solid black;
+    transition: 0.3s all;
+    border-radius: 2px;
+    transform: scale(1.1);
+}
+.btn{
+    background-color: cyan;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
 }
